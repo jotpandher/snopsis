@@ -1,0 +1,192 @@
+% \subsection{Design of Solution}
+% \image{0.2}{images/qt1.jpg}{Qt Logo}
+% \hspace{-1.8em} Django is an open source web application framework written in python. It lets 
+% you build high-performing, elegant Web applications quickly. Django 
+% focuses on automating as much as possible. Django's primary goal is to 
+% ease the creation of complex, database-driven websites. Django 
+% emphasizes reusability and "pluggability" of components, rapid 
+% development, and the DRY principal. Python is used throughout, even 
+% for settings, files, and data models. Django also provides an optional
+%  administrative create, read, update and delete interface that is 
+% generated dynamically through introspection and configured via admin 
+% models.\\\\
+%As defined earlier, we are trying to improve and ehance the functionalities of the existing CAD software such as LibreCAD as it does not provide the support for the 3D views. It does not even allow rendering of the objects.\\\\
+We are trying to build a general purpose converter for CAD and FEM softwares, to convert one file format to another file format.
+\subsection{Scope and Objectives}
+\begin{itemize}
+\item To import and export any file format in CAD softwares.\\
+
+\item To allow user to give inputs through text file with flexible format. \\
+
+\item To implement the DXF library for importing them into .dxf file.\\
+
+\end{itemize}
+% \subsubsection{Installation of Django}
+% Installation of Django is also very easy.
+% The Django version is: Django 1.4.\\
+% Type the commands in the terminal:\\
+
+% 	\$ wget http://www.djangoproject.com/download/1.4.5/tarball\\
+
+
+% 	\$ tar xzvf Django-1.4.5.tar.gz\\
+
+
+% 	\$ cd Django-1.4.5\\
+
+
+% 	\$ sudo python setup.py install \\
+
+% \noindent This will install the django on your pc/laptop.
+
+% \noindent \subsubsection{MTV} Django adopts the standard 
+% MVC called Model-View-Controller design pattern. But instead, their naming 
+% convention is the MTV called Model-Template-View.\\\\
+% \begin{itemize}
+% \item \underline {Qt} is a cross-platform application framework that is widely used for developing application software with a graphical user interface (GUI) (in which cases Qt is classified as a widget toolkit), and also used for developing non-GUI programs such as command-line tools and consoles for servers. Qt uses standard C++ but makes extensive use of a special code generator (called the Meta Object Compiler, or moc) together with several macros to enrich the language.\\
+
+% Qt can also be used in several other programming languages via language bindings. It runs on the major desktop platforms and some of the mobile platforms. It has extensive internationalization support. Non-GUI features include SQL database access, XML parsing, thread management, network support, and a unified cross-platform application programming interface (API) for file handling.\\
+
+% Qt is available under a commercial license, GPL v3 and LGPL v2. All editions support many compilers, including the GCC C++ compiler. Haavard Nord and Eirik Chambe-Eng (the original developers of Qt and the CEO and President, respectively, of Trolltech) began development of "Qt" in 1991, three years before the company was incorporated as Quasar Technologies, then changed the name to Troll Tech and then to Trolltech.
+% The toolkit was called Qt because the letter Q looked appealing in Haavard's Emacs typeface, and "t" was inspired by Xt, the X toolkit.\\
+
+% The first two versions of Qt had only two flavors: Qt/X11 for Unix and Qt/Windows for Windows. The Windows platform was only available under a proprietary license, which meant free/open source applications written in Qt for X11 could not be ported to Windows without purchasing the proprietary edition.\\
+% Qt 5.2 provides several improvements, including a new Scene graph renderer that has much better performance for drawing vector objects by using an OpenGL backend and minimizing GPU overdraws. Benchmarks of development versions shows significant improvements in speed and a visible decrease in CPU usage, because of the better usage of GPU rendering. The vision is to have game-like performance for the drawing canvas and QML renderer.\\
+
+
+% \item \underline {QtWidgets} is a library of C++ -based UI controls that provide native look-and-feel on all desktop platforms and are normally used for creating large-scale desktop user interfaces. With our Qt Creator IDE drag-and-drop UI tool, Qt Designer, your UI layout is easily created. All the platform-level details have been taken care of for you along with easy-to-use controls, dynamic layout managers and native dialogs. You can completely customize, easily extend and style Qt widgets into all kinds of desired look-and-feels. Also, if your application needs to manage large amounts of data, mechanisms are already in place to facilitate your data-driven application. The Qt Widgets Module provides a set of UI elements to create classic desktop-style user interfaces. Widgets are the primary elements for creating user interfaces in Qt. Widgets can display data and status information, receive user input, and provide a container for other widgets that should be grouped together. A widget that is not embedded in a parent widget is called a window.\\
+% The QWidget class provides the basic capability to render to the screen, and to handle user input events. All UI elements that Qt provides are either subclasses of QWidget, or are used in connection with a QWidget subclass. Creating custom widgets is done by subclassing QWidget or a suitable subclass and reimplementing the virtual event handlers.\\
+
+% \item \underline {C++} is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.It is designed with a bias for systems programming (e.g. embedded systems, operating system kernels), with performance, efficiency and flexibility of use as its design requirements. C++ has also been found useful in many other contexts, including desktop applications, servers (e.g. e-commerce, web search, SQL), performance critical applications (e.g. telephone switches, space probes) and entertainment software, such as video games.\\
+
+% It is a compiled language, with implementations of it available on many platforms. Various organizations provide them, including the FSF, LLVM, Microsoft and Intel. C++ supports memory management. Static storage duration objects are created before main() is entered and destroyed in reverse order of creation after main() exits. The exact order of creation is not specified by the standard (though there are some rules defined below) to allow implementations some freedom in how to organize there implementation\\
+% \end{itemize}
+
+% \subsubsection{Creating Project in Django}
+% If this is your first time using Django, you’ll have to take care of 
+% someinitial setup. Namely, you’ll need to auto-generate some code that 
+% establishes a Django project – a collection of settings for an instance 
+% of Django, including database configuration, Django-specific options 
+% and application-specific settings. From the command line, cd into a 
+% directory where you’d like to store your code, then run the command \\\\
+% \$ django-admin.py startproject mysite\\\\
+% \noindent This will create a mysite directory in your current
+% directory.
+
+% \noindent \subsubsection{Development Server in Django}  Change into 
+% the outer mysite directory, if you haven't already, and run the command 
+% \\ \$ pythhon manage.py runserver\\You'll see the following output on 
+% the command line:\\\\
+% Validating models...\\
+% 0 errors found.\\\\
+% Django version 1.4.5, using settings `mysite.settings'\\
+% Development server is running at http://127.0.0.1:8000/\\
+% Quit the server with CONTROL-C.
+
+% \subsubsection{Database setup}
+% In this we need to edit te settings.py file of the Project, that is the 
+% configuration file. It's a normal Python module with module-level 
+% variables representing Django settings. Change the following keys in 
+% the DATABASES 'default' item to match your database connection 
+% settings.\\
+% \begin{itemize}
+% \item ENGINE -- Either `django.db.backends.postgresql\_psycopg2', 
+% `django.db.backends.mysql',\\ `django.db.backends.sqlite3' or 
+% `django.db.backends.oracle'. Other backends are also available.
+% \item NAME -- The name of your database. If you're using SQLite, 
+% the database will be a file on your computer; in that case, NAME 
+% should be the full absolute path, including filename, of that file. If 
+% the file doesn't exist, it will automatically be created when you 
+% synchronize the database for the first time. When specifying 
+% the path, always use forward slashes, even on Windows 
+% e.g. C:/homes/user/mysite/sqlite3.db. 
+% \item USER -- Your database username.
+% \item PASSWORD -- Your database password.
+% \item HOST -- The host your database is on. Leave this as an empty 
+% string if your database server is on the same physical machine.
+% \end{itemize}
+% If you're new to databases, we recommend simply using SQLite by setting 
+% ENGINE to `django.db.backends.sqlite3' and NAME to the place where 
+% you'd like to store the database. SQLite is included as part of Python 
+% 2.5 and later, so you won't need to install anything else to support 
+% your database.\\\\
+% While you're editing settings.py, set TIME\_ZONE to your time zone. The 
+% default value is the Central time zone in the U.S.\\\\
+% Also, note the INSTALLED\_APPS setting toward the bottom of the file. 
+% That holds the names of all Django applications that are activated in 
+% this Django instance. Apps can be used in multiple projects, and you 
+% can package and distribute them for use by others in their projects.\\\\
+% By default, INSTALLED\_APPS contains the following apps, all of which 
+% come with Django:\\
+% \begin{itemize}
+% \item django.contrib.auth -- An authentication system.
+% \item django.contrib.contenttypes -- A framework for content types.
+% \item django.contrib.sessions -- A session framework.
+% \item django.contrib.sites -- A framework for managing multiple sites 
+% with one Django installation.
+% \item django.contrib.messages -- A messaging framework.
+% \item django.contrib.staticfiles -- A framework for managing static 
+% files.
+% \end{itemize}
+% These applications are included by default as a convenience for the 
+% common case.\\\\
+% Each of these applications makes use of at least one database table, 
+% though, so we need to create the tables in the database before we can 
+% use them. To do that, run the following command:\\\\
+% \$ python manage.py syncdb\\\\
+% The syncdb command looks at the INSTALLED\_APPS setting and creates 
+% any necessary database tables according to the database settings in 
+% your settings.py file. You'll see a message for each database table it 
+% creates, and you'll get a prompt asking you if you'd like to create a 
+% superuser account for the authentication system. Go ahead and do that.
+% \subsubsection{Django Applications used :}
+% \begin{itemize}
+% \item {\bf Django Registration}\\
+% It is an extensible user-registration application for Django. This is a fairly simple user-registration application for Django, designed to make allowing user signups as painless as possible. It requires a functional installation of Django 1.3 or newer, but has no other dependencies. Django Registration module can be installed easily using :\\\\
+% \$ pip install django-registration\\
+% \item {\bf Django avatar}\\
+% To integrate django-avatar with your site, there are relatively few things that are required. A minimal integration can work like this:
+% \item List this application in the INSTALLED\_APPS portion of your settings file. Your settings file will look something like:
+% \begin{verbatim}
+% INSTALLED_APPS = (
+%     # ...
+%     'avatar',
+% \end{verbatim}
+% \item Add the pagination urls to the end of your root urlconf. Your urlconf will look something like:
+% \begin{verbatim}
+% urlpatterns = patterns('',
+%     # ...
+%     (r'^admin/(.*)', admin.site.root),
+%     (r'^avatar/', include('avatar.urls')),
+% 	)
+% \end{verbatim}        
+% \item Somewhere in your template navigation scheme, link to the change avatar page:
+% \begin{verbatim}
+% <a href="{% url avatar_change %}">Change your avatar</a>
+% \end{verbatim}
+% \item Wherever you want to display an avatar for a user, first load the avatar template tags:
+% \begin{verbatim}
+% {% load avatar_tags %}
+% \end{verbatim}
+% Then, use the avatar tag to display an avatar of a default size:
+% \begin{verbatim}
+% {% avatar user %}
+% \end{verbatim}
+% Or specify a size explicitly:
+% \begin{verbatim}
+% {% avatar user 65 %}
+% \end{verbatim}
+% \item Optionally customize $avatar/change.html$, $avatar/save.html$, $avatar/crop.html$ and $avatar/confirm_delete.html$ to conform to your site's look and feel.
+% \item {Django Profiles}: This is a simple application which provides basic features for working with custom user profiles in Django projects. It implements the following:
+% \end{itemize}
+% \begin{itemize}
+% \item Profile creation.
+% \item Profile editing.
+% \item Profile viewing, with controls on which profiles are publicly viewable.
+% This application assumes that you are already have a working installation of Django 1.0 or newer, and that you are comfortable enough with Django to be able to, for example, create templates based on a description of what context variables are available to them, set up your own URL configuration and work with Django's forms system.\\\\
+% {\bf How to install}\\\\
+% Using a package-management tool\\\\
+% The easiest way by far to install django-profiles and most other interesting Python software is by using an automated package-management tool, so if you're not already familiar with the available tools for Python, now's as good a time as any to get started.\\\\
+% \$ pip install django-profiles
+% \end{itemize}
+%\end{description}

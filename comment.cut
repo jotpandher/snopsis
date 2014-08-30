@@ -1,0 +1,8 @@
+\usepackage{lastpage}
+\usepackage{macro/macro}
+
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\lhead{\large\bfseries Converter for CAD and FEM}
+\usepackage[left=2.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\pagestyle{fancy}

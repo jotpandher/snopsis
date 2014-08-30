@@ -1,0 +1,12 @@
+\begin{itemize}
+\item Researching the needs of the students and organisations and finding out the facilities required to develop project.
+\item Documenting the needs and then preparing the layout for the project, and deciding the various modules to be included in the software.
+
+\item  DFDs will be prepared showing various interactions between users and the system.
+
+\item  Selecting the technology for developing the project and installing the required tools for developing the project. We will install Flex, Bison and C and C++ compiler.
+\item Developing the UI(frontend) The interface through which user can interact will be developed.
+\item Developing the kernel(backend) It can said as database for GDCAD where the storage is done.
+\item Testing the system by running it 
+
+\end{itemize}

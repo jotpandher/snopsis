@@ -1,0 +1,88 @@
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{images/cad1.png}
+\caption{CAD}
+\end{figure}
+\hspace{-1.6em} Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects. CAD software may be specialized for specific applications. CAD is widely used for computer animation and special effects in movies, advertising, and other applications where the graphic design itself is the finished product. CAD is also used to design physical products in a wide range of industries, where the software performs calculations for determining an optimum shape and size for a variety of product and industrial design applications.\\\\
+Hundreds of thousands of professionals in (take a deep breath) architecture, construction, engineering, commercial interiors, light construction, landscape architecture, kitchen and bath design, urban planning, game design, film and stage, woodworking, and plenty of other fields use CAD softwares all the time, every day.\\\\
+GDCAD is a such application that can tackle with 2-D and 3-D graphics. GDCAD is like a pencil with superpowers. Start by drawing lines and shapes. Push and pull surfaces to turn them into 3D forms. Stretch, copy, rotate and paint to make anything you like. GDCAD is as simple and as powerful as you want it to be.\\\\
+GDCAD uses set of toolbuttons and menu options to capture the CAD functionality. It has various toolbuttons to capture the implementation of various entities such as line, circle. point, ellipse etc. It has a drawing area with in which the entities are painted. The click of any toolbutton such as point button or other captures and stores the mouse positions, such that along that points things get painted. Also the mouse movements in the drawing area are captured and shown in the status bar. We can repaint the same entity again without having the need to click that button again. The signal from the same button remains active until and unless another button is clicked. Along with toolbuttons the menu also has the options to provide the painting of things. The shortcuts for each action are also implemented.\\\\
+GDCAD also provides with the functionality of zooming in and out with the mouse scroll and same is also provided in the menu options.
+It can also open, load and display an image with .jpg and .png format as sometimes the architectures and other need to have an idea by looking into the image. So no need to load it externally, GDCAD exhibits this feature. You can even select the entities or the area you want.\\\\
+GDCAD is also designed to play nice with other software. So if you need to send your work to someone who needs a CAD file, you can use it to export pages as DWG and DXF files. It also exports multi-page PDFs also.\\\\
+Every document you create has a physical paper size that you specify at the very beginning of your project. Because of this, all you need to do to print a plan view of your model at an exact scale is insert and set up a model viewport, and choose File then Print. It’s literally a two minute process.\\
+% \begin{itemize}
+% \item Format of the product: The size of the finished page determines how many pages
+% can be printed on a single sheet.
+% \item Number of pages of the printed product: The compositor must determine how
+% many sheets are to be printed to create a finished book.
+% \item Stitching/binding method: The compositor must understand how the sheets are
+% placed to form the signatures that compose the finished book.
+% \item Paper fiber direction: Many papers have a ”grain,” reflecting the alignment of the
+% paper fibers. That these fibers must run lengthwise along the fold influences the
+% alignment, hence the position, of the pages on the printed sheet.
+% \item Finishing and binding
+% \end{itemize}
+% To understand how the pages are related to each other, an imposition dummy may be
+% used. This is made by folding several sheets of paper in the way the press will print and
+% fold the product. A little copy is then created, and this can help paginate the product.\\\\
+%\image{0.9}{images/imposition.png}{Imposition of 16 pages}\\\\
+\hspace{-1.8em} Also, this project is completely open source and is made using Qt as IDE, that uses the Qt libraries 
+and the Qtwidgets with C++ and with openGl functionality, the entire code is available to the user as and when required.
+The project is governed by the GNU General Public License v3.0 i.e GNU-GPLv3.0.\\\\
+Various tools used to develop the project are:\\
+\begin{itemize}
+\item Qt version 4.7 or higher
+\item C++
+\end{itemize}
+
+\section{Introduction to FEM}
+In mathematics, the finite element method (FEM) is a numerical technique for finding approximate solutions to boundary value problems for differential equations. It uses variational methods (the calculus of variations) to minimize an error function and produce a stable solution. Analogous to the idea that connecting many tiny straight lines can approximate a larger circle, FEM encompasses all the methods for connecting many simple element equations over many small subdomains, named finite elements, to approximate a more complex equation over a larger domain.
+\subsection{Finite Element Analysis}
+Finite element analysis (FEA) is a computerized method for predicting how a product reacts to real-world forces, vibration, heat, fluid flow, and other physical effects. Finite element analysis shows whether a product will break, wear out, or work the way it was designed. It is called analysis, but in the product development process, it is used to predict what is going to happen when the product is used.\\
+FEA works by breaking down a real object into a large number of finite elements, such as little cubes. Mathematical equations help predict the behavior of each element. A computer then adds up all the individual behaviors to predict the behavior of the actual object.\\
+\subsection{FEM Software-Calculix}
+CalculiX is a package designed to solve field problems. The method used is the finite element method.
+With Calculix Finite Element Models can be build, calculated and post-processed. The pre- and post-processor is an interactive 3D-tool using the openGL API. The solver is able to do linear and non-linear calculations. Static, dynamic and thermal solutions are available. Both programs can be used independently. Because the solver makes use of the input format it is possible to use commercial pre-processors as well. In turn the pre-processor is able to write mesh related data for nastran, abaqus, ansys, code-aster and for the free-cfd codes duns, ISAAC and OpenFOAM. A CAD interface is available. The program is designed to run on Unix platforms like Linux and Irix computers but also on MS-Windows.\\
+Calculix is a very powerful tool of analysis, highly configurable allowing the user to have complete control over the analysis, with more than 18 types of analysis covering most fields of study finite element Calculix's user can modify any variable on the analysis at discretion, the huge amount of information and documentation on the web make calculix a great alternative for the development of research projects where computer tools must accommodate the needs of the study.
+\section{Introduction to DXF}
+DXF stands for Drawing Exchange Format. Files that contain the .dxf file extension contain CAD vector image files.
+The DXF file format is similar to the DWG file format, but DXF files are ASCII based and are therefore more compatible with other computer applications.The DXF file format was developed as an exchange format for the CAD files that are created by computer aided drafting software applications. The file format was initially introduced in December of 1982 as a part of AutoCAD 1.0. The file format was meant to provide an exact representation of the data in the standard AutoCAD file format.
+\subsection {General File Structure}
+A Drawing Interchange File is simply an ASCII text file with a file type of .dxf and specially formatted text. The overall organization of a DXF file is as follows:
+\begin{itemize}
+\item HEADER section--General information about the drawing is found in this section of the DXF file. Each parameter has a variable name and an associated value.
+
+\item TABLES section--This section contains definitions of named items.
+
+* Linetype table (LTYPE)
+
+* Layer table (LAYER)
+
+* Text Style table (STYLE)
+
+* View table (VIEW)
+* User Coordinate System table (UCS)
+
+* Viewport configuration table (VPORT)
+
+* Dimension Style table (DIMSTYLE)
+
+* Application Identification table (APPID)
+
+\item BLOCKS section--This section contains Block Definition entities describing the entities that make up each Block in the drawing.
+
+\item ENTITIES section--This section contains the drawing entities, including any Block References.
+
+\item END OF FILE
+\end{itemize}
+
+
+
+% \subsection{Limitations of Existing system}
+% \begin{itemize}
+% \item Operating System: Linux/Windows
+% \item IDE: Qt version 4.7 or higher
+% \item Programming Language:C++
+% \end{itemize}
+

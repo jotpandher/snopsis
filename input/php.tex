@@ -1,0 +1,87 @@
+\image{0.3}{images/php.png}{PHP logo}
+\hspace{-1.8em} A PHP scripting block always starts with
+\begin{verbatim}
+<?php
+\end{verbatim}\\
+and ends with
+\begin{verbatim}
+?>
+\end{verbatim}\\
+A PHP scripting block can be placed anywhere in the document. On servers with shorthand support enabled you can start a scripting block  with $<?$ and end with $?>$.For maximum compatibility, the standard form\\
+\begin{verbatim}
+(<?php)
+\end{verbatim}
+is used rather than the shorthand form.\\
+A PHP file normally contains HTML tags, just like an HTML file, and some PHP scripting code. Below, we have an example of a simple PHP script which sends the text ”Hello
+World” to the browser:
+\begin{verbatim}
+<html>
+<body>
+<?php
+echo "Hello World";
+?>
+</body>
+</html>
+\end{verbatim}\\
+Each code line in PHP must end with a semicolon. The semicolon is a separator and is used to distinguish one set of instructions from another. There are two basic statements to output text with PHP:echoandprint. In the example above we have used the echo statement to output the text ”Hello World”.
+
+\subsection{Overview}
+PHP only parses code within itsdelimiters. Anything outside its delimiters is sent directly to the output and not parsed by PHP. The most common delimiters are
+\begin{verbatim}
+<?phpand?>
+\end{verbatim}\\
+,respectively open and close delimiters. The first form of delimiters,
+\begin{verbatim}
+<?phpand?>
+\end{verbatim}
+,in XHTMLand other XMLdocuments, creates correctly formed XMLprocessing instructions.Therefore, in either of these two cases, the resulting mixture of PHP and other markup is well-formed, and so probably valid, as XML and XHTML on the server before PHP processing. This may be helpful if the source code documents ever need to be processed in other ways during the life of the software.\\
+Short opening tags
+\begin{verbatim}
+(<?or<?=)
+\end{verbatim}\\
+are also available for use, but are, along with ASP style tags
+\begin{verbatim}
+(<%or<%=)
+\end{verbatim}\\
+,less portable as they can be disabled in the PHP configuration. For this reason the use of Short tags and ASP style tags is discouraged.The purpose of these delimiters is to separate PHP code from non-PHP code (notably HTML). Everything outside the delimiters is ignored by the parser and is passed through as output.
+\\\\
+One of the language characteristic features is implicit variable declaration. Variables are prefixed with adollar symboland atypedoes not need to be specified in advance. Unlike function and class names, variable names are case sensitive. Both double-quoted (””) andheredoc strings allow the ability to embed a variable’s value into the string.PHP treatsnewlinesaswhitespace, in the manner of afree-form language(except when inside string quotes). Statements are terminated by a semicolon.PHP has three types ofcomment syntax:/* */which serves as block comments, and //as well as 'hash' which are used for inline comments.Many examples use theprintfunction instead of theechofunction. Both functions are nearly identical; the major difference being thatprintis slower thanecho because the former will return a status indicating if it was successful or not in addition to text to output, whereas the latter does not return a status and only returns the text for output. The usual Hello Worldcode example for PHP is:\\
+\begin{verbatim}
+<?php
+echo "Hello World!";
+?>
+\end{verbatim}\\\\
+The example above outputs the following:
+Hello World!
+
+\subsection{Colon Syntax}
+PHP offers an alternative syntax to the standard curly-brace syntax. This syntax is called colon syntax and affects the following control structures: if, while, for, foreach, and switch.The syntax varies only slightly from the curly-brace syntax. In each case the opening brace () is replaced with a colon (:) and the close brace is replaced with endif;, endwhile;, endfor;, endforeach;, or endswitch;, respectively.An example of the syntax for
+an if/elseif statement is as follows:
+\begin{verbatim}
+if (condition) :
+// code here
+elseif (condition) :
+// code here
+else :
+// code here
+endif;
+\end{verbatim}\\
+
+\subsection{Data types}
+PHP stores whole numbers in a platform-dependent range. This range is typically that of 32-bit signed integers. Integer variables can be assigned using decimal (positive and negative),octalandhexadecimalnotations.Real numbersare also stored in a platform-specific range. They can be specified usingfloating pointnotation, or two forms ofscientific notation.PHP has a native Boolean type, named ”boolean”, similar to the native Boolean types inJavaandC++. Using the Boolean type conversion rules, non-zero values are interpreted as true and zero as false, as in Perl.The null data type represents a variable that has no value. The only value in the null data type isNULL. Variables of the ”resource” type represent references to resources from external sources. These are typically
+created by functions from a particular extension, and can only be processed by functions from the same extension. Examples include file, image and database resources.Arrays
+can contain elements of any type that PHP can handle, including resources, objects, and even other arrays. Order is preserved in lists of values and inhasheswith both keys and values, and the two can be intermingled.Objectscan syntactically be used as Arrays.\\\\
+
+\subsection{Functions}
+PHP has hundreds of base functions and thousands more from extensions. Functions are notfirst-class functionsand can only be referenced by their name prior to PHP version
+5.3.0, whereas PHP 5.3.0 introduces closures.User-defined functions can be created at any time and without being
+prototyped.Functions can be defined inside code blocks, permitting a run-time decision as to whether or not a function should be defined. There is no concept of local functions. Function calls must use parentheses with the exception of zero argument class constructor functions called with the PHPnewoperator, where parentheses are optional. An example function definition is the following:
+\begin{verbatim}
+<?php
+function hello()
+{
+echo "Hello World";
+}
+hello();
+?>
+\end{verbatim}

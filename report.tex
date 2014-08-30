@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage[print,nopanel]{pdfscreen}
+\begin{print}
+\usepackage{lastpage}
+\usepackage{macro/macro}
+
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\lhead{\large\bfseries Converter for CAD and FEM}
+\usepackage[left=2.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\pagestyle{fancy}
+\end{print}
+\margins{.5cm}{.5cm}{.5cm}{.5cm}
+\begin{screen}
+
+\renewcommand{\encodingdefault}{T1}
+\usepackage{setspace}
+\linespread{1.5}
+\renewcommand{\rmdefault}{ptm}
+\end{screen}
+\screensize{8cm}{9cm}
+\overlay{overlay8.pdf}
+\usepackage{graphicx}
+
+\begin{document}
+\input{input/titlepage.tex}
+\begin{screen}
+\ppttitle
+\end{screen}
+\footskip 0.7cm
+\thispagestyle{empty} 
+\pagetitle
+\newpage
+\pagenumbering{Roman}
+\cfoot{\thepage}
+
+%\input{input/whomayiconcern.tex}
+% \newpage
+% \input{input/Acknowledgement.tex}
+% \newpage
+% \input{input/abstract.tex}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\cfoot{\thepage}
+
+\newpage
+\section{Introduction To Organisation}
+\input{input/organisation.tex}
+\newpage
+\section{Introduction}
+\input{input/Introduction.tex}
+\newpage
+\section{Problem Formulation}
+\input{input/django.tex}
+% \newpage
+% \section{Python}
+% \input{input/python.tex}
+% \newpage
+% \section{\LaTeX}
+% \input{input/latex.tex}
+% \newpage
+% \section{Introduction to PHP}
+% \input{input/php.tex}
+% \newpage
+% \section{Introduction to MySQL}
+% \input{input/mysql.tex}
+\newpage
+\section{Project Work}
+\input{input/project.tex}
+\newpage
+\section{Methodology/Planning of Working}
+\input{input/result.tex}
+\newpage
+\section{Facilities for Proposed Work}
+\input{input/conclusion.tex}
+% \newpage
+% \section{Coding}
+% \input{input/code.tex}
+\newpage
+\section{Bibliography}
+\input{input/bibliography.tex}
+\begin{screen}
+\newpage
+\input{input/link.tex}
+\end{screen}
+
+\end{document}

@@ -1,0 +1,63 @@
+\contentsline {section}{\numberline {1}Introduction To Organisation}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Testing and Consutancy Cell}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}\LaTeX }{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Introduction to \LaTeX }{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Typesetting}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Project Preview}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}The Existing System}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Objective of Proposed System}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}My Project}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Introduction to BaKaPlan}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Modules}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Strategies}{7}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Cushy}{8}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Serpentine}{9}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Flip Flop}{10}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Triplet}{11}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}Quadlet}{12}{subsubsection.4.3.5}
+\contentsline {subsection}{\numberline {4.4}Product Definition}{13}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Software Requirement Analysis}{14}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Hardware Requirement}{14}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Software Requirement}{14}{subsubsection.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Introduction to Object Oriented Programming}{15}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Features of OOPs}{15}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Object}{15}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Class}{16}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Encapsulation}{16}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}Inheritance}{16}{subsubsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.6}Data Hiding}{16}{subsubsection.4.6.6}
+\contentsline {subsection}{\numberline {4.7}Introduction to C++}{17}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}MySQL Database Server}{19}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Apache Web Server}{20}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}GNU G++ Compiler}{21}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}Common Gateway Interface and C++}{22}{subsection.4.11}
+\contentsline {subsubsection}{\numberline {4.11.1}Web Browsing}{22}{subsubsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.2}CGI Architecture Diagram}{22}{subsubsection.4.11.2}
+\contentsline {subsection}{\numberline {4.12}CGICC Library}{23}{subsection.4.12}
+\contentsline {subsubsection}{\numberline {4.12.1}Introduction to GNU Cgicc}{23}{subsubsection.4.12.1}
+\contentsline {subsubsection}{\numberline {4.12.2}Requirements}{23}{subsubsection.4.12.2}
+\contentsline {subsection}{\numberline {4.13}Make Utility}{24}{subsection.4.13}
+\contentsline {subsection}{\numberline {4.14}Boost Library}{25}{subsection.4.14}
+\contentsline {subsection}{\numberline {4.15}jwSMTP Library}{26}{subsection.4.15}
+\contentsline {subsection}{\numberline {4.16}Doxygen}{27}{subsection.4.16}
+\contentsline {subsubsection}{\numberline {4.16.1}Installation}{27}{subsubsection.4.16.1}
+\contentsline {subsubsection}{\numberline {4.16.2}Usage}{27}{subsubsection.4.16.2}
+\contentsline {subsection}{\numberline {4.17}GitHub}{30}{subsection.4.17}
+\contentsline {subsection}{\numberline {4.18}Design}{31}{subsection.4.18}
+\contentsline {subsection}{\numberline {4.19}Implementation of BaKaPlan}{35}{subsection.4.19}
+\contentsline {subsubsection}{\numberline {4.19.1}Login Interface}{35}{subsubsection.4.19.1}
+\contentsline {subsubsection}{\numberline {4.19.2}Project Detail}{36}{subsubsection.4.19.2}
+\contentsline {subsubsection}{\numberline {4.19.3}Class Detail}{37}{subsubsection.4.19.3}
+\contentsline {subsubsection}{\numberline {4.19.4}Roll No Detail}{38}{subsubsection.4.19.4}
+\contentsline {subsubsection}{\numberline {4.19.5}Datesheet Detail}{39}{subsubsection.4.19.5}
+\contentsline {subsubsection}{\numberline {4.19.6}Exam Detail}{40}{subsubsection.4.19.6}
+\contentsline {subsubsection}{\numberline {4.19.7}Room Detail}{41}{subsubsection.4.19.7}
+\contentsline {subsubsection}{\numberline {4.19.8}Select Strategy}{42}{subsubsection.4.19.8}
+\contentsline {subsubsection}{\numberline {4.19.9}Validate Strategy}{43}{subsubsection.4.19.9}
+\contentsline {subsubsection}{\numberline {4.19.10}Seating Plan}{44}{subsubsection.4.19.10}
+\contentsline {subsubsection}{\numberline {4.19.11}Generated Seating Plan}{45}{subsubsection.4.19.11}
+\contentsline {section}{\numberline {5}Project legacy}{46}{section.5}
+\contentsline {subsection}{\numberline {5.1}Conclusion}{46}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Current status}{47}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Future Scope}{48}{subsection.5.3}
+\contentsline {section}{\numberline {6}Bibliography}{49}{section.6}

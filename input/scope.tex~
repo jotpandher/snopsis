@@ -1,0 +1,23 @@
+\subsection{Conclusion}
+Yaadein is an very efficient application which help in generating booklet for pass out student. It can be used 
+by schools, colleges, universities, etc. It is
+less time consuming and user friendly. It has been successfully used
+in our college.
+\subsection{Current status}
+Yaadein is web based application. It will generate booklet passing through various stages:
+\begin{itemize}
+\item Web based user Interface for filling user-name, room, roll no, address, comments etc.
+\item Data retrieved by using php connextivity with database.
+\item Typesetting of pages usinf \LaTeX{}.
+\item Imposition of pages using \LaTeX{}.
+\item Color seperation i.e RGB to CMYK.
+\end{itemize}
+\subsection{Scope}
+\begin{itemize}
+\item The Yaadein project has already improved the Souvenir making experience to a huge extent by automating the making process, reducing the time tremendously from several weeks to a few minutes(may vary depending on the processor of the system in use) and cutting costs hugely.
+\item By the use of complete open source technologies and cutting dependence on proprietary software such as the ever so expensive Adobe Photoshop, Microsoft Windows, Microsoft SQL, Microsoft office, etc. among others.
+\item Although automated to a large extent, Yaadein is still in its initial development stages and there is still scope for a lot of development.
+\item We plan to add a lot of other features some of which are automated imposition and colour separation for printing press requirements, automated design templates
+for improving the aesthetic beauty of the souvenir, graphical interface for the non-terminal savvy users who will be able to make the souvenir without the use of the terminal.
+\item We plan to provide hosting and remote access facilities for those users who do not have supporting hardware and software for running the application.
+\end{itemize}

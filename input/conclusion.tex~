@@ -1,0 +1,15 @@
+
+\subsection{Software Requirements}
+
+\begin{itemize}
+\item Operating System: Linux/Windows
+\item IDE: Qt version 4.7 or higher
+\item Programming Language:C++
+\end{itemize}
+
+\subsection{Hardware Requirements}
+Hardware requirement of this project is any Desktop or Laptop machine for local
+use or a Server with minimum available configuration to make Project globally
+available. Hardware specifications of the machine used depends upon the hardware
+requirements of the Operating System installed on it. As such there are no special
+hardware requirements of this project.\\

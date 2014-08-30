@@ -1,0 +1,63 @@
+\BOOKMARK [1][]{section.1}{Introduction To Organisation}{}% 1
+\BOOKMARK [2][]{subsection.1.1}{Testing and Consutancy Cell}{section.1}% 2
+\BOOKMARK [1][]{section.2}{LaTeX}{}% 3
+\BOOKMARK [2][]{subsection.2.1}{Introduction to LaTeX}{section.2}% 4
+\BOOKMARK [2][]{subsection.2.2}{Typesetting}{section.2}% 5
+\BOOKMARK [1][]{section.3}{Project Preview}{}% 6
+\BOOKMARK [2][]{subsection.3.1}{The Existing System}{section.3}% 7
+\BOOKMARK [2][]{subsection.3.2}{Objective of Proposed System}{section.3}% 8
+\BOOKMARK [1][]{section.4}{My Project}{}% 9
+\BOOKMARK [2][]{subsection.4.1}{Introduction to BaKaPlan}{section.4}% 10
+\BOOKMARK [2][]{subsection.4.2}{Modules}{section.4}% 11
+\BOOKMARK [2][]{subsection.4.3}{Strategies}{section.4}% 12
+\BOOKMARK [3][]{subsubsection.4.3.1}{Cushy}{subsection.4.3}% 13
+\BOOKMARK [3][]{subsubsection.4.3.2}{Serpentine}{subsection.4.3}% 14
+\BOOKMARK [3][]{subsubsection.4.3.3}{Flip Flop}{subsection.4.3}% 15
+\BOOKMARK [3][]{subsubsection.4.3.4}{Triplet}{subsection.4.3}% 16
+\BOOKMARK [3][]{subsubsection.4.3.5}{Quadlet}{subsection.4.3}% 17
+\BOOKMARK [2][]{subsection.4.4}{Product Definition}{section.4}% 18
+\BOOKMARK [2][]{subsection.4.5}{Software Requirement Analysis}{section.4}% 19
+\BOOKMARK [3][]{subsubsection.4.5.1}{Hardware Requirement}{subsection.4.5}% 20
+\BOOKMARK [3][]{subsubsection.4.5.2}{Software Requirement}{subsection.4.5}% 21
+\BOOKMARK [2][]{subsection.4.6}{Introduction to Object Oriented Programming}{section.4}% 22
+\BOOKMARK [3][]{subsubsection.4.6.1}{Features of OOPs}{subsection.4.6}% 23
+\BOOKMARK [3][]{subsubsection.4.6.2}{Object}{subsection.4.6}% 24
+\BOOKMARK [3][]{subsubsection.4.6.3}{Class}{subsection.4.6}% 25
+\BOOKMARK [3][]{subsubsection.4.6.4}{Encapsulation}{subsection.4.6}% 26
+\BOOKMARK [3][]{subsubsection.4.6.5}{Inheritance}{subsection.4.6}% 27
+\BOOKMARK [3][]{subsubsection.4.6.6}{Data Hiding}{subsection.4.6}% 28
+\BOOKMARK [2][]{subsection.4.7}{Introduction to C++}{section.4}% 29
+\BOOKMARK [2][]{subsection.4.8}{MySQL Database Server}{section.4}% 30
+\BOOKMARK [2][]{subsection.4.9}{Apache Web Server}{section.4}% 31
+\BOOKMARK [2][]{subsection.4.10}{GNU G++ Compiler}{section.4}% 32
+\BOOKMARK [2][]{subsection.4.11}{Common Gateway Interface and C++}{section.4}% 33
+\BOOKMARK [3][]{subsubsection.4.11.1}{Web Browsing}{subsection.4.11}% 34
+\BOOKMARK [3][]{subsubsection.4.11.2}{CGI Architecture Diagram}{subsection.4.11}% 35
+\BOOKMARK [2][]{subsection.4.12}{CGICC Library}{section.4}% 36
+\BOOKMARK [3][]{subsubsection.4.12.1}{Introduction to GNU Cgicc}{subsection.4.12}% 37
+\BOOKMARK [3][]{subsubsection.4.12.2}{Requirements}{subsection.4.12}% 38
+\BOOKMARK [2][]{subsection.4.13}{Make Utility}{section.4}% 39
+\BOOKMARK [2][]{subsection.4.14}{Boost Library}{section.4}% 40
+\BOOKMARK [2][]{subsection.4.15}{jwSMTP Library}{section.4}% 41
+\BOOKMARK [2][]{subsection.4.16}{Doxygen}{section.4}% 42
+\BOOKMARK [3][]{subsubsection.4.16.1}{Installation}{subsection.4.16}% 43
+\BOOKMARK [3][]{subsubsection.4.16.2}{Usage}{subsection.4.16}% 44
+\BOOKMARK [2][]{subsection.4.17}{GitHub}{section.4}% 45
+\BOOKMARK [2][]{subsection.4.18}{Design}{section.4}% 46
+\BOOKMARK [2][]{subsection.4.19}{Implementation of BaKaPlan}{section.4}% 47
+\BOOKMARK [3][]{subsubsection.4.19.1}{Login Interface}{subsection.4.19}% 48
+\BOOKMARK [3][]{subsubsection.4.19.2}{Project Detail}{subsection.4.19}% 49
+\BOOKMARK [3][]{subsubsection.4.19.3}{Class Detail}{subsection.4.19}% 50
+\BOOKMARK [3][]{subsubsection.4.19.4}{Roll No Detail}{subsection.4.19}% 51
+\BOOKMARK [3][]{subsubsection.4.19.5}{Datesheet Detail}{subsection.4.19}% 52
+\BOOKMARK [3][]{subsubsection.4.19.6}{Exam Detail}{subsection.4.19}% 53
+\BOOKMARK [3][]{subsubsection.4.19.7}{Room Detail}{subsection.4.19}% 54
+\BOOKMARK [3][]{subsubsection.4.19.8}{Select Strategy}{subsection.4.19}% 55
+\BOOKMARK [3][]{subsubsection.4.19.9}{Validate Strategy}{subsection.4.19}% 56
+\BOOKMARK [3][]{subsubsection.4.19.10}{Seating Plan}{subsection.4.19}% 57
+\BOOKMARK [3][]{subsubsection.4.19.11}{Generated Seating Plan}{subsection.4.19}% 58
+\BOOKMARK [1][]{section.5}{Project legacy}{}% 59
+\BOOKMARK [2][]{subsection.5.1}{Conclusion}{section.5}% 60
+\BOOKMARK [2][]{subsection.5.2}{Current status}{section.5}% 61
+\BOOKMARK [2][]{subsection.5.3}{Future Scope}{section.5}% 62
+\BOOKMARK [1][]{section.6}{Bibliography}{}% 63
